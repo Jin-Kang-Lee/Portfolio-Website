@@ -11,8 +11,7 @@ const About = () => {
                   My journey in the tech world has been a thrilling exploration of various domains, 
                   ranging from Cloud Computing to Machine Learning. 
                   This curiosity has driven me to delve into hands-on projects and immerse myself in the ever-evolving landscape of technology.
-                  I've developed side projects during my free time, transforming ideas into tangible solutions. 
-                  These projects have not only honed my technical skills but also fueled my passion for innovation and problem-solving. 
+                  I've developed side projects during my free time, and these projects have not only honed my technical skills but also fueled my passion for innovation and problem-solving.  
                   Alongside my practical experience, I've dedicated myself to continuous learning, earning industry certifications that ensure I stay at the forefront of emerging trends.</p>
 
                   <a href='https://github.com/Jin-Kang-Lee?tab=repositories'>
