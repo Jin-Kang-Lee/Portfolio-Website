@@ -34,7 +34,7 @@ const Experience = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/assets/experience/china-Uni-Logo.png' 
+                            <Image src='/assets/experience/China-Uni-Logo.png' 
                             width={64} 
                             height={64} 
                             alt='/'/>
