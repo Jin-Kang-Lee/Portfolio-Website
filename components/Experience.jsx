@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Experience = () => {
   return (
-    <div id='experience' className='w-full lg:h-screen p-2'>
+    <div id='experience' className='w-full lg:h-screen p-2 py-24'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-[#504be7]'>Experience</p>
             <h2 className='py-4'>Where have I been</h2>
