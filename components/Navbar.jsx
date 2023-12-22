@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         
         <Link href='/#home'>
-          <Image src="/assets/Logo.png" alt="Logo" width={125} height={50} />
+          <Image src="/assets/JK-Logo.png" alt="Logo" width={75} height={30} />
         </Link>
         
         <div>
@@ -74,7 +74,7 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link href="/#home">
-                <Image src='/assets/Logo.png' width='87' height='35' alt='/'/>
+                <Image src='/assets/JK-Logo.png' width='87' height='35' alt='/'/>
               </Link>
               
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-grey-400 p-3 cursor-pointer'>
