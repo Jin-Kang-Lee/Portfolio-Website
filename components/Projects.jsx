@@ -18,28 +18,27 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           
           <ProjectItem 
-          title='ChatGPT Clone' 
-          backgroundImg={CloneImg} 
-          projectURL='https://github.com/Jin-Kang-Lee/ChatGPT_Clone/tree/main'
-          build='Python, OpenAI API'/>
-          
-          <ProjectItem 
           title='Real Time Speech Recognition' 
           backgroundImg={SpeechRecogImg} 
           projectURL='https://github.com/Jin-Kang-Lee/Real-Time-Speech-Recognition'
           build='Python'/>
+          
+          <ProjectItem 
+          title='Bitcoin Price Prediction ML Model' 
+          backgroundImg={CloneImg} 
+          projectURL='https://github.com/Jin-Kang-Lee/Bitcoin_Price_Prediction'
+          build='Python, Machine Learning'/>
 
           <ProjectItem 
-          title='Stock Price Prediction Model' 
+          title='Stock Price Prediction ML Model' 
           backgroundImg={StockImg} 
           projectURL='https://github.com/Jin-Kang-Lee/Stock_Prediction_Model'
           build='Python, Machine Learning'/>
           
-          
           <ProjectItem 
-          title='Cryoto Web API Automation' 
+          title='ChatGPT Clone' 
           backgroundImg={CryptoImg} 
-          projectURL='https://github.com/Jin-Kang-Lee/Crypto_WebAPI_Pull_Automation'
+          projectURL='https://github.com/Jin-Kang-Lee/ChatGPT_Clone'
           build='Python'/>
         </div>
       </div>
