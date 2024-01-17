@@ -5,6 +5,7 @@ import StockImg from '../public/assets/projects/Stock.png'
 import SpeechRecogImg from '../public/assets/projects/Speech_Recog_Pic.png'
 import CryptoImg from '../public/assets/projects/Crypto_WebAPI_Pic.png'
 import CloneImg from '../public/assets/projects/ChatGPT-Clone_Pic.png'
+import BitcoinImg from '../public/assets/projects/Bitcoin_Pic1.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -25,7 +26,7 @@ const Projects = () => {
           
           <ProjectItem 
           title='Bitcoin Price Prediction ML Model' 
-          backgroundImg={CloneImg} 
+          backgroundImg={BitcoinImg} 
           projectURL='https://github.com/Jin-Kang-Lee/Bitcoin_Price_Prediction'
           build='Python, Machine Learning'/>
 
@@ -37,7 +38,7 @@ const Projects = () => {
           
           <ProjectItem 
           title='ChatGPT Clone' 
-          backgroundImg={CryptoImg} 
+          backgroundImg={CloneImg} 
           projectURL='https://github.com/Jin-Kang-Lee/ChatGPT_Clone'
           build='Python'/>
         </div>
