@@ -148,7 +148,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className='flex flex-1 justify-end p-20'>
+      <div className='flex flex-1 justify-end p-10'>
         <ThemeToggle />
       </div>
 
