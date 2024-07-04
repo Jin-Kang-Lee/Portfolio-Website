@@ -5,9 +5,9 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-24'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2 '>
-                <p className='uppercase text-xl tracking-widest text-[#504be7]'>About</p>
+                <p className='uppercase text-xl tracking-widest text-[#504be7] dark:text-[#FF2E63]'>About</p>
                 <h2 className='py-4'>Who Am I</h2>
-                <p className='py-2 text-gray-600'>I have always had a knack for technology and working with computers. 
+                <p className='py-2 text-gray-600 dark:bg-dark dark:text-[#EAEAEA]'>I have always had a knack for technology and working with computers. 
                   My journey in the tech world has been a thrilling exploration of various domains, 
                   ranging from Cloud Computing to Machine Learning. 
                   This curiosity has driven me to delve into hands-on projects and immerse myself in the ever-evolving landscape of technology.
@@ -15,7 +15,7 @@ const About = () => {
                   Alongside my practical experience, I've dedicated myself to continuous learning, earning industry certifications that ensure I stay at the forefront of emerging trends.</p>
 
                   <a href='https://github.com/Jin-Kang-Lee?tab=repositories'>
-                    <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects</p>
+                    <p className='py-2 text-gray-600 underline cursor-pointer dark:bg-dark dark:text-[#EAEAEA]'>Check out some of my latest projects</p>
                   </a>
                   
             </div>

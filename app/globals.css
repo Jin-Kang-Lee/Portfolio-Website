@@ -4,15 +4,18 @@
 
 html{
   scroll-behavior: smooth;
+  
 }
 
 @layer base{
   body{
     @apply bg-[#ecf0f3] text-black tracking-wide
+    dark:bg-dark dark:text-[#EAEAEA]
   }
 
   h1, h2, h3, h4, h5, h6{
     @apply font-bold
+
   }
   
   h1{
@@ -25,6 +28,7 @@ html{
 
   li{
     @apply cursor-pointer
+    dark:bg-dark dark:text-[#EAEAEA]
   }
 
   button{

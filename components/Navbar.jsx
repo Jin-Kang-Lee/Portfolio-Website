@@ -6,6 +6,7 @@ import Link from 'next/link';
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import ThemeToggle from './ThemeToggle';
 
 
 
@@ -34,7 +35,7 @@ const Navbar = () => {
 
   return (
     <div style={{backgroundColor: '#ecf0f3'}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-dark dark:text-white'>
         
         <Link href='/#home'>
           <Image src="/assets/JK-Logo.png" alt="Logo" width={75} height={30} />
@@ -69,7 +70,7 @@ const Navbar = () => {
       </div>
 
       <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
-        <div className={nav ? 'fixed left-[0%] top-0 w-[75%] sm:w[60%] md:w[45%] h-screen bg-[#ecf0f3] p-10 ease-in-out duration-500' 
+        <div className={nav ? 'fixed left-[0%] top-0 w-[75%] sm:w[60%] md:w[45%] h-screen bg-[#ecf0f3] p-10 ease-in-out duration-500 dark:bg-dark dark:text-white' 
                             : 'fixed right-[100%] p-10 top-0 ease-in-out duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
@@ -137,6 +138,8 @@ const Navbar = () => {
                   <BsFillPersonLinesFill onClick={() => setNav(false)}/>
                 </div>
                 </Link>
+
+                
                 
 
               </div>
@@ -145,7 +148,13 @@ const Navbar = () => {
         </div>
       </div>
 
+      <div className='flex flex-1 justify-end p-20'>
+        <ThemeToggle />
+      </div>
+
     </div>
+
+    
   );
 };
 

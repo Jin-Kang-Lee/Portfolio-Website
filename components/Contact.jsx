@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen py-16'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-          <p className='uppercase text-xl tracking-widest text-[#504be7]'>Contact</p>
+          <p className='uppercase text-xl tracking-widest text-[#504be7] dark:text-[#FF2E63]'>Contact</p>
           <h2 className='py-4'>Keep In Touch</h2>
           <div className='grid lg:grid-cols-5 gap-8'>
             {/*Left*/}

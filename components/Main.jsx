@@ -6,22 +6,23 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+
+    <div id='home' className='w-full h-screen text-center '>
+        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center '>
             <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>
+                <p className='uppercase text-sm tracking-widest text-gray-600 dark:bg-dark dark:text-[#EAEAEA]'>
                     - BUILD TO INSPIRE, INSPIRE TO BUILD -
                 </p>
 
-                <h1 className='py-4 text-gray-700'>
-                    Hi, I'm <span className='text-[#504be7]'>Jin Kang</span>
+                <h1 className='py-4 text-gray-700 dark:bg-dark dark:text-[#EAEAEA]'>
+                    Hi, I'm <span className='text-[#504be7] dark:text-[#FF2E63]'>Jin Kang</span>
                 </h1>
 
-                <h1 className='py-2 text-gray-700'>
-                    An Aspiring Developer and Engineer
+                <h1 className='py-2 text-gray-700 dark:bg-dark dark:text-[#EAEAEA]'>
+                    An Aspiring <span className='dark:text-[#08D9D6]'>Developer</span> and <span className='dark:text-[#08D9D6]'>Engineer</span>
                 </h1>
 
-                <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
+                <p className='py-4 text-gray-600 max-w-[70%] m-auto dark:bg-dark dark:text-[#EAEAEA]'>
                     I'm an aspiring machine learning engineer and software developer who wishes to build and innovative solutions that positively impact the world.
                     With a passion for machine learning and software development, 
                     I aim to contribute to cutting-edge technologies that address complex challenges.
