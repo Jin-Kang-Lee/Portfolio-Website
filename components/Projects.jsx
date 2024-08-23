@@ -3,10 +3,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import StockImg from '../public/assets/projects/Stock.png'
 import SpeechRecogImg from '../public/assets/projects/Speech_Recog_Pic.png'
-import CryptoImg from '../public/assets/projects/Crypto_WebAPI_Pic.png'
 import CloneImg from '../public/assets/projects/ChatGPT-Clone_Pic.png'
 import BitcoinImg from '../public/assets/projects/Bitcoin_Pic1.png'
+import NeuralNetImg from '../public/assets/projects/neural_pic.png'
 import ProjectItem from './ProjectItem'
+
 
 const Projects = () => {
   return (
@@ -17,13 +18,12 @@ const Projects = () => {
         </p>
         <h2 className='py-4 '>What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          
-          <ProjectItem 
-          title='Real Time Speech Recognition' 
-          backgroundImg={SpeechRecogImg} 
-          projectURL='https://github.com/Jin-Kang-Lee/Real-Time-Speech-Recognition'
-          build='Python'/>
-          
+        <ProjectItem 
+          title='Handwritten Digit Classifier' 
+          backgroundImg={NeuralNetImg} 
+          projectURL='https://github.com/Jin-Kang-Lee/ChatGPT_Clone'
+          build='Deep Learning, Neural Network, TensorFlow'/>
+
           <ProjectItem 
           title='Bitcoin Price Prediction ML Model' 
           backgroundImg={BitcoinImg} 
@@ -37,9 +37,9 @@ const Projects = () => {
           build='Python, Machine Learning'/>
           
           <ProjectItem 
-          title='ChatGPT Clone' 
-          backgroundImg={CloneImg} 
-          projectURL='https://github.com/Jin-Kang-Lee/ChatGPT_Clone'
+          title='Real Time Speech Recognition' 
+          backgroundImg={SpeechRecogImg} 
+          projectURL='https://github.com/Jin-Kang-Lee/Real-Time-Speech-Recognition'
           build='Python'/>
         </div>
       </div>
