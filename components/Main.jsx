@@ -19,7 +19,7 @@ const Main = () => {
                 </h1>
 
                 <h1 className='py-2 text-gray-700 dark:bg-dark dark:text-[#EAEAEA]'>
-                    An Aspiring <span className='dark:text-[#08D9D6]'>Developer</span> and <span className='dark:text-[#08D9D6]'>Engineer</span>
+                    An aspiring <span className='dark:text-[#08D9D6]'>Developer</span> and <span className='dark:text-[#08D9D6]'>Engineer</span>
                 </h1>
 
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto dark:bg-dark dark:text-[#EAEAEA]'>
