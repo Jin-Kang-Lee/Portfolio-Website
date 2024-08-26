@@ -21,7 +21,7 @@ const Projects = () => {
         <ProjectItem 
           title='Handwritten Digit Classifier' 
           backgroundImg={NeuralNetImg} 
-          projectURL='https://github.com/Jin-Kang-Lee/ChatGPT_Clone'
+          projectURL='https://github.com/Jin-Kang-Lee/Handwritten-Digits-Classifier'
           build='Deep Learning, Neural Network, TensorFlow'/>
 
           <ProjectItem 
